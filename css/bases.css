@@ -1,0 +1,23 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Raleway';
+}
+
+.container {
+    padding: 0% 8%;
+}
+
+.sectionBody {
+    background-color: #F5F5F5;
+}
+
+
+.button {
+    width: 160px;
+    height: 40px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: 2px solid #2A7AE4;
+    border-radius: 7px;
+}

@@ -1,0 +1,60 @@
+{
+  "productos": [
+    {
+      "nombreProducto": "Producto 1",
+      "precio": "50.00",
+      "categoria": "Star Wars",
+      "imagen": "imagen",
+      "descripcion": "Un producto de star wars",
+      "id": "135ab93d-1356-4113-8f22-64356746bcc1"
+    },
+    {
+      "nombreProducto": "Producto 2",
+      "precio": "50.00",
+      "categoria": "Star Wars",
+      "imagen": "imagen",
+      "descripcion": "Un producto de star wars",
+      "id": "eaaeb28a-fa76-4938-a5eb-43914bcfb1cc"
+    },
+    {
+      "nombreProducto": "Producto 12",
+      "precio": "10.00",
+      "categoria": "Star Wars",
+      "imagen": "imagen",
+      "descripcion": "Un producto de star wars",
+      "id": "f9d9a4d8-01ed-4800-964b-2712166edd05"
+    },
+    {
+      "nombreProducto": "Producto 13",
+      "precio": "40.00",
+      "categoria": "Star Wars",
+      "imagen": "imagen",
+      "descripcion": "Un producto de star wars",
+      "id": "1664a5bb-0ed1-4f0e-bc25-33efe58cf22a"
+    },
+    {
+      "nombreProducto": "Producto 3",
+      "precio": "40.00",
+      "categoria": "Star Wars",
+      "imagen": "imagen",
+      "descripcion": "Un producto de star wars",
+      "id": "a5a1602d-f7ff-4383-9245-02a84a1d22b1"
+    },
+    {
+      "nombreProducto": "Producto 8",
+      "precio": "90.00",
+      "categoria": "Star Wars",
+      "imagen": "imagen",
+      "descripcion": "Un producto de star wars",
+      "id": "6f1befdc-ddc4-42cd-a311-d2ad77839d3e"
+    },
+    {
+      "nombreProducto": "Producto 15",
+      "precio": "100.00",
+      "categoria": "Star Wars",
+      "imagen": "imagen",
+      "descripcion": "Un producto de star wars",
+      "id": "6162968d-daa9-4ec0-ad70-12cbb62378a5"
+    }
+  ]
+}

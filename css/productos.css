@@ -1,0 +1,90 @@
+.productos {
+    margin-top: 2%;
+}
+
+.productos_contenedor_tipoProducto {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos_contenedor-nombreTipoProd-tagMore {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    align-items: center;
+}
+
+.productos_tipoProducto_nombreTipoProd {
+    color: #464646;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.productos_tipoProducto-tagMore {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2A7AE4;
+    padding-right: 2.5%;
+    background-image: url(../assets/icons/flecha.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top;
+}
+
+.productos_contenedor_datosProducto {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 2% 0;
+}
+
+.productos_datosProducto {
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    line-height: 1.7rem;
+    margin: 1%;
+    position: relative;
+}
+
+.productos_datosProducto-img {
+    width: 260px;
+    height: auto;
+}
+
+.productos_datosProducto-containerEditDelete {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    /* top: 2%;
+    left: 55%; */
+}
+
+.productos_datosProducto-eliminarProd {
+    width: 25px;
+    height: auto;
+    padding: 3% 0;
+    margin-right: 7%;   
+}
+
+.productos_datosProducto-editarProd {
+    width: 25px;
+    height: auto;
+    padding: 3% 0;
+    margin-right: 7%;
+}
+
+
+
+.productos_datosProducto-precioProd {
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.productos_datosProducto-tagDetalles {
+    color: #2A7AE4;
+    font-weight: 700;
+
+}

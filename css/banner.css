@@ -1,0 +1,25 @@
+.banner {
+    height: auto;
+    background-image: url(https://cdn.masmovil.es/embed/c9369257f50a1dd1d81507a3e61574959272/mensajes-divertidos-buzon-de-voz-geek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_contenedor {
+    padding: 7% 0;
+}
+
+.banner_tituloPromo {
+    color: #FFFFFF;
+    font-size: 3.25rem;
+    font-weight: 700;
+    padding-top: 8%;
+}
+
+.banner_descPromo {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1% 0;
+}

@@ -1,0 +1,46 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 0%;
+}
+
+
+.cabecera_contenedor_imgInput {
+    display: flex;
+    
+}
+
+.cabecera_contenedor-img {
+    display: flex;
+    margin-right: 3%;
+}
+
+.cabecera_contenedor-input {
+    font-family: 'Raleway';
+    width: 330px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 0 2%;
+    background-image: url(../assets/icons/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 96%;
+    
+}
+
+.cabecera_contenedor-input:focus {
+    background-image: none;
+    outline: white;
+}
+
+.cabecera-button {
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    color: #2A7AE4;
+    background-color: #FFFFFF;
+    border: 2px solid #2A7AE4;
+    border-radius: 7px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bases.css">
+    <link rel="stylesheet" href="./css/cabecera.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/modal.css">
+</head>
+
+<body>
+    <header class="cabecera container">
+        <div class="cabecera_contenedor_imgInput">
+            <div class="cabecera_contenedor-img">
+                <img src="./assets/icons/gammerControl.svg" alt="logo-aluraGeek">
+                <img src="./assets/icons/aluraText.svg" alt="logo-aluraGeek">
+                <img src="./assets/icons/geekText.svg" alt="logo-aluraGeek">
+            </div>
+            <input class="cabecera_contenedor-input" type="text" placeholder="¿Que deseas buscar?">
+        </div>
+        <div class="cabecera_contenedor_button"><a href="./formularioInicioSesion.html" class="cabecera-button">Login</a></div>
+    </header>
+    <main>
+
+        <section class="sectionProductList">
+
+            <section class="productos container">
+                <div class="productos_contenedor_tipoProducto">
+                    <div class="productos_contenedor-nombreTipoProd-tagMore">
+                        <h2 class="productos_tipoProducto_nombreTipoProd">Todos los productos</h2>
+                        <a href="./formularioAgregarProducto.html" class="productos_tipoProducto-tagMore">Agregar producto</a>
+                    </div>
+                    <div id="contenedorProductos" class="productos_contenedor_datosProducto">
+
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+        <section class="formulario">
+            <div class="formulario_container container">
+                <div class="formulario_logo">
+                    <img src="./assets/icons/gammerControl.svg" alt="logo-aluraGeek">
+                    <img src="./assets/icons/aluraText.svg" alt="logo-aluraGeek">
+                    <img src="./assets/icons/geekText.svg" alt="logo-aluraGeek">
+                </div>
+                <ul class="formulario_lista">
+                    <li class="formulario_lista-item">Quienes somos</li>
+                    <li class="formulario_lista-item">Politica de privacidad</li>
+                    <li class="formulario_lista-item">Programa de fidelidad</li>
+                    <li class="formulario_lista-item">Nuestras tiendas</li>
+                    <li class="formulario_lista-item">Quiero ser franquiciado</li>
+                    <li class="formulario_lista-item">Anuncie aqui</li>
+                </ul>
+                <form class="formulario_form-Contenedor" action="">
+                    <p class="formulario_form-titulo">Hable con nosotros</p>
+                    <div class="formulario_form-labelInput">
+                        <label class="formulario_form-label" for="">Nombre</label>
+                        <input class="formulario_form-input" type="text" class="formulario_form-nombre">
+                    </div>
+                    <textarea name="" id="" rows="8" class="formulario_form-mensaje"
+                        placeholder="Escribe tu mensaje"></textarea>
+                    <button type="button" class="formulario_form-buttonEnviarForm button">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Desarrollado por: Carlos Gomez</p>
+            <p>2023</p>
+        </div>
+    </footer>
+    <section class="modalEdit">
+        <div class="modal_container">
+            <form action="" class="modalformularioEditarProducto_container">
+                <p class="modalformularioEditarProducto-titulo">Editar producto</p>
+                <div class="modalformularioEditarProducto-labelInput">
+                    <label for="" class="modalformularioEditarProducto-label">URL de la imagen</label>
+                    <input type="text" name="imagen" class="modalformularioEditarProducto-input" data-tipo="imagen">
+                </div>
+                <div class="modalformularioEditarProducto-labelInput">
+                    <label for="" class="modalformularioEditarProducto-label">Categoria</label>
+                    <input type="text" name="categoria" class="modalformularioEditarProducto-input"
+                        data-tipo="categoria">
+                </div>
+                <div class="modalformularioEditarProducto-labelInput">
+                    <label for="" class="modalformularioEditarProducto-label">Nombre del producto</label>
+                    <input type="text" name="nombreProducto" class="modalformularioEditarProducto-input"
+                        data-tipo="nombreProducto">
+                </div>
+                <div class="modalformularioEditarProducto-labelInput">
+                    <label for="" class="modalformularioEditarProducto-label">Precio del producto</label>
+                    <input type="text" name="precio" class="modalformularioEditarProducto-input" data-tipo="precio">
+                </div>
+                <textarea id="" name="descripcion" cols="30" rows="3" placeholder="Descripcion del producto"
+                    class="modalformularioEditarProducto-mensaje" data-tipo="descripcion"></textarea>
+                <button id="submit" class="modalformularioEditarProducto-button">Editar
+                    Producto</button>
+                <button id="cancelEdit" class="modalformularioEditarProducto-button">Cancelar</button>
+            </form>
+        </div>
+    </section>
+    <section class="modalDelete">
+        <div class="modal_container">
+            <p class="modalDelete_titulo1">¿Está seguro que desea eliminar este producto?</p>
+            <p class="modalDelete_mensaje1">Si lo elimina, no prodrá corregir esta accion.</p>
+            <div class="modalDelete_buttonContainer">
+                <button id="yes" class="modalDelete_buttonYes">Si</button>
+                <button id="no" class="modalDelete_buttonNo">No</button>
+            </div>
+            
+        </div>
+    </section>
+    <script type="module" src="./scripts/adminProducts.js"></script>
+</body>
+
+</html>

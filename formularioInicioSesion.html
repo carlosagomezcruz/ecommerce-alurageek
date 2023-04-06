@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bases.css">
+    <link rel="stylesheet" href="./css/cabecera.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+
+<body>
+    <header class="cabecera container">
+        <div class="cabecera_contenedor_imgInput">
+            <div class="cabecera_contenedor-img">
+                <img src="./assets/icons/gammerControl.svg" alt="logo-aluraGeek">
+                <img src="./assets/icons/aluraText.svg" alt="logo-aluraGeek">
+                <img src="./assets/icons/geekText.svg" alt="logo-aluraGeek">
+            </div>
+            <input class="cabecera_contenedor-input" type="text" placeholder="¿Que deseas buscar?">
+        </div>
+        <div class="cabecera_contenedor_button"><a href="./formularioInicioSesion.html" class="cabecera-button">Login</a></div>
+    </header>
+    <main>
+
+        <section class="sectionBodyInicioSesion">
+            <form action="" class="formulario_inicioSesion">
+                <p class="formulario_inicioSesion-titulo">Iniciar Sesion</p>
+                <input type="text" class="formulario_inicioSesion-input" placeholder="Escriba su correo electronico">
+                <input type="text" class="formulario_inicioSesion-input" placeholder="Escriba su contraseña">
+                <a href="./adminProducts.html" class="formulario_inicioSesion-button">Ingresa sin login y contraseña. (En etapa de diseño)</a>
+            </form>
+        </section>
+
+        <section class="formulario">
+            <div class="formulario_container container">
+                <div class="formulario_logo">
+                    <img src="./assets/icons/gammerControl.svg" alt="logo-aluraGeek">
+                    <img src="./assets/icons/aluraText.svg" alt="logo-aluraGeek">
+                    <img src="./assets/icons/geekText.svg" alt="logo-aluraGeek">
+                </div>
+                <ul class="formulario_lista">
+                    <li class="formulario_lista-item">Quienes somos</li>
+                    <li class="formulario_lista-item">Politica de privacidad</li>
+                    <li class="formulario_lista-item">Programa de fidelidad</li>
+                    <li class="formulario_lista-item">Nuestras tiendas</li>
+                    <li class="formulario_lista-item">Quiero ser franquiciado</li>
+                    <li class="formulario_lista-item">Anuncie aqui</li>
+                </ul>
+                <form class="formulario_form-Contenedor" action="">
+                    <p class="formulario_form-titulo">Hable con nosotros</p>
+                    <div class="formulario_form-labelInput">
+                        <label class="formulario_form-label" for="">Nombre</label>
+                        <input class="formulario_form-input" type="text" class="formulario_form-nombre">
+                    </div>
+                    <textarea name="" id="" rows="8" class="formulario_form-mensaje"
+                        placeholder="Escribe tu mensaje"></textarea>
+                    <button type="button" class="formulario_form-buttonEnviarForm button">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Desarrollado por: Carlos Gomez</p>
+            <p>2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
